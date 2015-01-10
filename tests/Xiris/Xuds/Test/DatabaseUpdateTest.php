@@ -13,9 +13,9 @@
  * @version     1.0
  */
 
-namespace Xuds\Test;
+namespace Xiris\Xuds\Test;
 
-use Xuds\DatabaseUpdate;
+use Xiris\Xuds\DatabaseUpdate;
 
 /**
  * Class DatabaseUpdateTest
@@ -26,11 +26,17 @@ class DatabaseUpdateTest extends \PHPUnit_Framework_TestCase
 {
     private $du;
 
+    /**
+     * setUp()
+     */
     protected function setUp()
     {
         $this->du = new DatabaseUpdate();
     }
 
+    /**
+     * testGetAllFiles()
+     */
     public function testGetAllFiles()
     {
         $fromVersion = '3.5.2';

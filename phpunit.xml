@@ -11,7 +11,7 @@
          syntaxCheck="false">
     <testsuites>
         <testsuite name="Xuds Test Suite">
-            <directory suffix=".php">./tests/Xuds/Test/</directory>
+            <directory suffix=".php">./tests/Xiris/Xuds/Test/</directory>
         </testsuite>
     </testsuites>
 </phpunit>

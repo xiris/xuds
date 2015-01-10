@@ -1,6 +1,6 @@
 {
     "name": "xiris/xuds",
-    "descriptions": "Provides a lib to update database system",
+    "description": "Provides a lib to update database system",
     "keywords": ["database", "xuds", "upgrade", "update"],
     "type": "library",
     "license": "MIT",
@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Xiris\\Xuds\\": "src"
+            "Xiris\\Xuds\\": "src/Xiris/Xuds"
         }
     }
 }

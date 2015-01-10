@@ -13,7 +13,7 @@
  * @version     1.0
  */
 
-namespace Xuds;
+namespace Xiris\Xuds;
 
 /**
  * Class DatabaseUpdate
