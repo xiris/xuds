@@ -80,7 +80,7 @@ class DatabaseUpdate
      * setFilesPath()
      *
      * @param string $path
-     * @throws Exception
+     * @throws \InvalidArgumentException
      */
     public function setFilesPath($path = '')
     {

@@ -43,4 +43,18 @@ class DatabaseUpdateTest extends \PHPUnit_Framework_TestCase
         $files = $this->du->getAllFiles($fromVersion, $toVersion);
         $this->assertTrue(is_array($files));
     }
+
+    /**
+     * testGetUpgradeFile()
+     */
+    public function testGetUpgradeFile()
+    {
+        $fromVersion = '3.5.2';
+        $toVersion   = '3.5.4';
+        $files       = array('file1.txt', 'file2.txt');
+
+        $file = $this->du->getUpgradeFile($fromVersion, $toVersion, $files);
+
+        $this->assertTrue(is_string($file));
+    }
 }
