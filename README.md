@@ -1,5 +1,5 @@
 # xUDS
-[![Build Status](https://travis-ci.org/xiris/xuds.svg?branch=dev)](https://travis-ci.org/xiris/xuds)
+[![Build Status](https://travis-ci.org/xiris/xuds.svg?branch=master)](https://travis-ci.org/xiris/xuds)
 
 Maintainer: [Christopher Silva](https://github.com/xiris) ([@xiris_](http://twitter.com/xiris_))
 
